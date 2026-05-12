@@ -115,3 +115,9 @@ fi
 
 # Created by `pipx` on 2026-05-01 09:06:10
 export PATH="$PATH:/home/jonny/.local/bin"
+
+# Zoxide init
+eval "$(zoxide init bash)"
+
+# Set up fzf key bindings and fuzzy completion
+eval "$(fzf --bash)"
