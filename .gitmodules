@@ -10,3 +10,6 @@
 [submodule "tmux/.tmux/plugins/tpm"]
 	path = tmux/.tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm.git
+[submodule "omb/.oh-my-bash"]
+	path = omb/.oh-my-bash
+	url = https://github.com/ohmybash/oh-my-bash.git
