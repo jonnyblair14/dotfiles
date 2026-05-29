@@ -33,6 +33,16 @@ rustup update
 cargo binstall tree-sitter-cli
 ```
 
+## Zoxide install
+```bash
+# https://github.com/ajeetdsouza/zoxide
+cargo install zoxide --locked
+```
+## fzf install
+```bash
+# https://github.com/junegunn/fzf#installation
+sudo <pkgmgr> install fzf
+```
 need nerdfont: MesloGM NerdFont is my usual
 
 ## refresh .tmux.conf
