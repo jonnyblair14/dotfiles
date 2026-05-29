@@ -13,3 +13,9 @@
 [submodule "omb/.oh-my-bash"]
 	path = omb/.oh-my-bash
 	url = https://github.com/ohmybash/oh-my-bash.git
+[submodule "tmux/.tmux/plugins/tmux-resurrect"]
+	path = tmux/.tmux/plugins/tmux-resurrect
+	url = https://github.com/tmux-plugins/tmux-resurrect.git
+[submodule "tmux/.tmux/plugins/tmux-continuum"]
+	path = tmux/.tmux/plugins/tmux-continuum
+	url = https://github.com/tmux-plugins/tmux-continuum.git
