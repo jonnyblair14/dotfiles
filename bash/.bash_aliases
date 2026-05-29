@@ -7,5 +7,9 @@ alias getbrc="source ~/.bashrc"
 alias jump="ssh jump"
 alias jumpadmin="ssh jumpadmin"
 
+# Navigation
+alias ..="cd .."
+alias ...="cd ../.."
+
 # nvim
 alias nvim="\nvim --listen /tmp/nvimsocket"

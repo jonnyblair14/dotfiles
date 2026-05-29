@@ -12,8 +12,12 @@ sudo apt install git tmux stow nvim
 ```bash
 sudo apt install git make unzip gcc ripgrep fd-find
 curl -o nvim-linux-x86_64.tar.gz https://github.com/neovim/neovim/releases/download/stable/nvim-linux-x86_64.tar.gz
-tar xzvf nvim-linux-x86_64.tar.gz
-./nvim-linux-x86_64/bin/nvim
+tar xzvf nvim-linux-x86_64.tar.gz -C /opt
+
+# Launch nvim
+nvim
+
+# Install nvr
 pipx install neovim-remote
 ```
 ## Rustup installation

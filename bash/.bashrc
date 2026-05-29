@@ -190,7 +190,10 @@ fi
 . "$HOME/.cargo/env"
 
 # Created by `pipx` on 2026-05-01 09:06:10
-export PATH="$PATH:/home/jonny/.local/bin"
+export PATH="$PATH:$HOME/.local/bin"
+#
+# nvim path
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 
 # Zoxide init
 eval "$(zoxide init bash)"
