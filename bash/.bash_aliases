@@ -13,4 +13,12 @@ alias ...="cd ../.."
 
 # nvim
 alias nvim="\nvim --listen /tmp/nvimsocket"
-alias nvr="\nvr -cc tabedit"
+# alias nvt="nvr --remote-tab"
+
+e() {
+	command nvr --remote "$@"
+}
+
+et() {
+	command nvr --remote-tab "$@"
+}
