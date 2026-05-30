@@ -13,3 +13,4 @@ alias ...="cd ../.."
 
 # nvim
 alias nvim="\nvim --listen /tmp/nvimsocket"
+alias nvr="\nvr -cc tabedit"
