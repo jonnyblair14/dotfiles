@@ -79,6 +79,8 @@ if [[ ${fedoraFlag} = 'true' ]]; then
 	fi
 fi
 
+stow $home/dotfiles/bash
+
 if [[ ${alacrittyFlag} = 'true' ]]; then
 	# dependencies
 	Ensure-Rustup
