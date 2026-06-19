@@ -58,8 +58,9 @@ if [[ ${debianFlag} = 'true' ]]; then
 		sudo apt install tmux
 
 		# link dotfiles
-		stow $home/dotfiles/tmux
+		stow tmux
 	fi
+	stow bash
 fi
 
 if [[ ${fedoraFlag} = 'true' ]]; then
@@ -76,11 +77,10 @@ if [[ ${fedoraFlag} = 'true' ]]; then
 		sudo dnf install tmux
 
 		# link dotfiles
-		stow $home/dotfiles/tmux
+		stow tmux
 	fi
+	stow bash
 fi
-
-stow $home/dotfiles/bash
 
 if [[ ${alacrittyFlag} = 'true' ]]; then
 	# dependencies
@@ -90,7 +90,7 @@ if [[ ${alacrittyFlag} = 'true' ]]; then
 	cargo install alacritty
 
 	# link dotfiles
-	stow $home/dotfiles/alacritty
+	stow alacritty
 fi
 
 if [[ ${nvimFlag} = 'true' ]]; then
@@ -113,7 +113,7 @@ if [[ ${nvimFlag} = 'true' ]]; then
 	cargo binstall tree-sitter
 
 	# link dotfiles
-	stow $home/dotfiles/nvim
+	stow nvim
 fi
 
 if [[ ${zoxideFlag} = 'true' ]]; then
