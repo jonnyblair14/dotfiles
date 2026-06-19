@@ -22,6 +22,7 @@ blur = true
 opacity = 0.9
 padding.x = 10
 padding.y = 10
+startup_mode = "Maximized"
 
 [window.dimensions]
 columns = 160
