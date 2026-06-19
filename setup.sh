@@ -10,6 +10,7 @@ print-usage() {
 	echo "======================"
 	echo "usage temp placeholder"
 	echo "======================"
+	# TODO: Write usage output
 }
 
 Ensure-Rustup() {
