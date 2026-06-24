@@ -6,6 +6,10 @@ tmuxFlag='false'
 zoxideFlag='false'
 rustupExists=''
 
+# TODO: update package manager commands to include '-y'
+
+# TODO: create temp folder for downloads and remove it at the end.
+
 print-usage() {
 	echo "======================"
 	echo "usage temp placeholder"
